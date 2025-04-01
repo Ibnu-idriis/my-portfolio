@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    background-color: rgb(17, 212, 105);
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+    height: 80px;
+    padding: 35px 20px;
+
+}
+.logo{
+    font-size: small;
+    font-weight: 500;
+    color: white;
+    transition: 0.2;
+
+}
+span{
+    color:blueviolet ;
+}
+nav{
+    font-size: 20px;
+    color: white;
+    margin: 0 20px;
+    border-bottom: 2px;
+    transition: 0.3s;
+}
+nav a:hover{
+    color: red;
+    padding-left: 4px;
+    text-decoration: underline;
+
+}
+.contact{
+    
+    padding: 10px 28px;
+    background-color: aquamarine;
+    color: black;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    font-size: 18px ;
+    letter-spacing: 3px;
+    font-weight: 500;
+    transition: 0.3s ease;
+
+
+}
+
+.contact:hover{
+    background-color: orangered;
+    box-shadow:0 0 28px rgba(11, 9, 179, 0.863);
+    color: white;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(241,241, 241, green, blue);
+    display: fixed;
+    align-items: center;
+
+    gap: 7em;
+    padding: 30px 12% 0;
+    padding-top: 150px;
+
+}
+.home-content{
+    max-width: 800px;
+
+}
+.home-content h3{
+    font-size: 42px;
+}
+.home-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+
+}.home-content p{
+    font-size: 18px;
+    margin: 25px0 30px;
+
+
+}
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+
+}
+.button1{
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.button2{
+    padding: 15px 28px;
+    background-color:orangered;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer
+
+
+}
+
+
+.button1:hover{
+
+    background-color: aliceblue;
+    color: orangered;
+
+}
+.button2:hover{
+
+ 
+    background-color: aliceblue;
+    color: orangered;
+}
+
+.image-box img{
+
+    border-radius: 50%;
+    width: 350px;
+    box-shadow: 0 0 25px orangered;
+    position: relative;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.about{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap:  10em;
+    background-color: black;
+
+
+}
+.about-img img{
+    border-radius: 50%;
+    width: 300PX;
+    background-position:;
+    box-shadow: 0 0 25px orangered;
+    position: relative;
+    margin-right: 30px;}
+
+    .about content h2{
+        font-size: 42px;
+        align-items: left;
+        color: alicebl
+    }
+
+    .about-content h3{
+
+        color: yellow;
+        font-size: 62px;
+
+
+    }
+    .about-content p{
+
+        color: aliceblue;
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-top: 10;
+
+    }
